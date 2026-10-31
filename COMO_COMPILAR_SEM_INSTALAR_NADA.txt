@@ -1,0 +1,28 @@
+FOTOMETRICA PRO - GERAR APK ONLINE SEM ANDROID STUDIO
+====================================================
+
+Este pacote esta preparado para que o GitHub Actions compile um APK de teste.
+NAO contem APK compilado, pois a compilacao so ocorre depois de enviar os arquivos.
+
+1. Acesse https://github.com e crie uma conta gratuita, se nao tiver.
+2. No GitHub, crie um repositorio NOVO chamado "FotoMetrica-PRO".
+   Pode deixar PRIVATE se preferir nao compartilhar o codigo.
+3. Extraia este ZIP em uma pasta no Windows.
+4. Abra o repositorio no GitHub e use "Add file" > "Upload files".
+5. ARRASTE OS ARQUIVOS E PASTAS QUE ESTAO DENTRO de
+   FotoMetrica_GitHub_Compilar_Online. Inclua a pasta .github!
+   Nao envie so o ZIP, e nao ponha todos os arquivos dentro de uma subpasta.
+6. Confirme (Commit changes).
+7. Abra a aba "Actions" do repositorio.
+   Se pedir para ativar workflows, autorize para seu repositorio.
+8. Entre em "Gerar APK FotoMetrica PRO" > "Run workflow".
+   O fluxo tambem inicia automaticamente no primeiro upload para main/master.
+9. Ao fim, abra a execucao bem-sucedida e localize "Artifacts".
+10. Baixe "FotoMetrica-PRO-APK". Extraia esse ZIP, e voce tera
+    FotoMetrica_PRO_Instalar.apk para instalar no Galaxy A07.
+
+A compilacao e os testes no celular ainda NAO foram realizados aqui.
+Se o workflow falhar, envie um print da mensagem de erro: sera possivel corrigir.
+
+ALTERNATIVA SEM APK: Abra o HTML funcional no Chrome do celular.
+A medicao depende de uma distancia conhecida, e nao de AR automatico.

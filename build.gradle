@@ -1,0 +1,2 @@
+// FotoMétrica PRO 2.0 — Android app offline
+plugins { id 'com.android.application' apply false }
